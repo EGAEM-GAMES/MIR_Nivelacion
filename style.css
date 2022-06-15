@@ -1,10 +1,4 @@
-ol{
-    background-color: yellow;
-}
-ul{
-    background-color: black;
-    color: white;
-}
-span{
-    color: red;
+table,td,tr,th{
+    border: red solid 1px;
+    border-collapse: collapse;
 }

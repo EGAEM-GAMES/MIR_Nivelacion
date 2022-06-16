@@ -1,32 +1,49 @@
 <!DOCTYPE html>
-<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Mi primer documento</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <table>
-            <tr>
-                <th>Nombre</th>
-                <th>Edad</th>
-            </tr>
-            <tr>
-                <td>Rosa</td>
-                <td>19</td>
-            </tr>
-            <tr>
-                <td>Luis</td>
-                <td>23</td>
-            </tr>
-            <tr>
-                <td>Andrea</td>
-                <td>22</td>
-            </tr>
-            <tr>
-                <td>Oscar</td>
-                <td>35</td>
-            </tr>
-        </table>
+        <form>
+            <fieldset>
+                <label for="name">Nombre </label>
+                <input type="text" id="name" name="name">
+            </fieldset>
+            <fieldset>
+                <label for="lastname">Apellido </label>
+                <input type="text" id="lastname" name="lastname">
+            </fieldset>
+            <fieldset>
+                <label for="email">Apellido </label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+            <fieldset>
+                <label for="color">Color </label>
+                <select name="color" id="color">
+                    <option value="" selected disabled hidden>Selecciona un color</option>
+                    <option value="Red">Rojo</option>
+                    <option value="Blue">Azul</option>
+                    <option value="Yellow">Amarillo</option>
+                </select>                
+            </fieldset>
+            <fieldset>
+                <label for="size_S">Talla S</label>
+                <input type="radio" id="size_S" name="size">
+                <label for="size_M">Talla M</label>
+                <input type="radio" id="size_M" name="size">
+                <label for="size_L">Talla L</label>
+                <input type="radio" id="size_L" name="size">
+            </fieldset>
+            <fieldset>
+                <label for="comment">Comentario</label>
+                <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Pedir</button>
+            </fieldset>
+        </form>
     </body>
 </html>

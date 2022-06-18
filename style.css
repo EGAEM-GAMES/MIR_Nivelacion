@@ -1,24 +1,54 @@
-p{
-    margin: 0px;
-}
-.Primer-Contenedor{
-    color: white;
-    background-color: rgb(41, 41, 41);    
-    padding: 5px;
+.Message{
     text-align: center;
+    border: dashed 3px blue;
+    width: 370px;
+    height: 100px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 40%;
+    right: 5%;
 }
-.Segundo-Contenedor{
-    background-image: url(images/ChicaLaptop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 600px;
-}
-.Tercer-Contenedor{
-    width: 100%;
+.Head{
+    width: 300px;
     height: 300px;
-    background-color: #fdff9f;
-    background-image: url(images/MakeItRealLogo.png);
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-color: cadetblue;
+    position: relative;
+}
+.Eye{
+    width: 75px;
+    height: 75px;
+    background-color: burlywood;
+    position: absolute;
+    right: 0px;
+    top: 20%;
+}
+.Pupil{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 35%;
+    right: 0px;
+}
+.Mouth{
+    width: 40%;
+    height: 5%;
+    background-color: pink;
+    position: absolute;
+    top: 75%;
+    right: 0px;
+}
+.Body{
+    width: 230px;
+    height: 350px;
+    background-color: black;
+    position: relative
+}
+.Arm{
+    width: 155px;
+    height: 40px;
+    background-color: red;
+    position: relative;
+    left: 63%;
+    top: 30%;
 }

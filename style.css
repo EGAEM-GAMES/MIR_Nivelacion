@@ -1,41 +1,61 @@
-h1,h2,h3{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.Contenedor1{
-    width: 100%;
-    height: 37vh;
-    background-color: #1c2742;
-}
-#Titulo{
-    margin: auto;
-    color: white;
-    position: relative;
+.Message{
+    border: dashed 3px blue;
+    width: 370px;
+    height: 70px;
+    padding-bottom: 20px;
+    position: fixed;
     top: 40%;
+    right: 5%;
+    box-shadow: 5px 10px 15px 20px gray;
 }
-.Contenedor2{
-    width: 100%;
-    height: 16vh;
-    background-color: white;
-}
-.Productos{
-    width: 100%;
-    height: 37vh;
-    background-color: #1c2742;
-    color: white;
+.Message h1{
     text-align: center;
+    text-shadow: 2px 2px 30px red;
 }
-.Productos > div{
+.Head{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
     position: relative;
-    top: 30px;
+    box-shadow: 10px 10px 15px 5px gray;
 }
-.Enlace:link{
-    color: red;
+.Eye{
+    width: 75px;
+    height: 75px;
+    background-color: burlywood;
+    position: absolute;
+    right: 0px;
+    top: 20%;
 }
-.Enlace:visited{
-    color: green;
+.Pupil{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 35%;
+    right: 0px;
 }
-.Enlace:hover{
-    color: purple;
+.Mouth{
+    width: 40%;
+    height: 5%;
+    background-color: pink;
+    position: absolute;
+    top: 75%;
+    right: 0px;
+}
+.Body{
+    width: 230px;
+    height: 350px;
+    background-color: black;
+    position: relative;
+    box-shadow: 10px 10px 15px 5px gray;
+}
+.Arm{
+    width: 155px;
+    height: 40px;
+    background-color: red;
+    position: relative;
+    left: 63%;
+    top: 30%;
+    box-shadow: 10px 10px 15px 5px gray;
 }

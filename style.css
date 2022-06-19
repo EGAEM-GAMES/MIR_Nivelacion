@@ -1,61 +1,38 @@
-.Message{
-    border: dashed 3px blue;
-    width: 370px;
-    height: 70px;
-    padding-bottom: 20px;
+body{
+    background-color: blue;
+    font-size: 12px;
+}
+h1{
+    color: white;
     position: fixed;
-    top: 40%;
-    right: 5%;
-    box-shadow: 5px 10px 15px 20px gray;
-}
-.Message h1{
+    top: 100px;
     text-align: center;
-    text-shadow: 2px 2px 30px red;
+    width: 100%;
 }
-.Head{
-    width: 300px;
-    height: 300px;
-    background-color: cadetblue;
-    position: relative;
-    box-shadow: 10px 10px 15px 5px gray;
+@media(min-width: 768px){
+    body{
+        background-color: black;
+        font-size: 16px;
+    }
+    h1{
+        color: yellow;
+    }
 }
-.Eye{
-    width: 75px;
-    height: 75px;
-    background-color: burlywood;
-    position: absolute;
-    right: 0px;
-    top: 20%;
+@media(min-width: 992px){
+    body{
+        background-color: white;
+        font-size:  20px;
+    }
+    h1{
+        color: orange;
+    }
 }
-.Pupil{
-    width: 15px;
-    height: 15px;
-    background-color: black;
-    position: absolute;
-    top: 35%;
-    right: 0px;
-}
-.Mouth{
-    width: 40%;
-    height: 5%;
-    background-color: pink;
-    position: absolute;
-    top: 75%;
-    right: 0px;
-}
-.Body{
-    width: 230px;
-    height: 350px;
-    position: relative;
-    box-shadow: 10px 10px 15px 5px gray;
-    background: linear-gradient(40deg, purple 15%,  orange 20%,  black 80%);
-}
-.Arm{
-    width: 155px;
-    height: 40px;
-    background-color: red;
-    position: relative;
-    left: 63%;
-    top: 30%;
-    box-shadow: 10px 10px 15px 5px gray;
+@media(min-width: 1200px){
+    body{
+        background-color: black;
+        font-size: 24px;
+    }
+    h1{
+        color: pink;
+    }
 }

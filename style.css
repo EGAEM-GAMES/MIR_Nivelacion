@@ -46,9 +46,9 @@
 .Body{
     width: 230px;
     height: 350px;
-    background-color: black;
     position: relative;
     box-shadow: 10px 10px 15px 5px gray;
+    background: linear-gradient(40deg, purple 15%,  orange 20%,  black 80%);
 }
 .Arm{
     width: 155px;
